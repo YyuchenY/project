@@ -114,6 +114,9 @@ body{
     font-size: 32px;
     right:20px;
 }
+div{
+    height: 1000px;
+}
 
 #index{
     background:url(../images/lack.jpg) 50% 0 no-repeat fixed;
@@ -125,7 +128,7 @@ body{
 }
 .logo{
     position: relative;
-    top: 12%;
+    
 
 }
 h1{
@@ -142,7 +145,7 @@ h1{
     color: #000;
     font-family: "Microsoft JhengHei";
     position: absolute;
-    top: 34%;
+    top: 45%;
     left: 9%;
     width: 600px;
 
