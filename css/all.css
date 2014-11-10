@@ -1,0 +1,398 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+pre {
+            height: 1000px;
+}
+body{
+    *background-color: #000000;
+}
+#side-nav {
+    position: fixed;
+    z-index: 9999;
+    top: 30%;
+    right:-50px;
+    width: 200px;
+    height: 100%;
+    margin-top: 0px;
+    
+}
+#side-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:0px;
+
+}
+#side-nav ul li {
+    margin: 12px 0 0 0;
+}
+#side-nav ul li a {
+    display: block;
+    width: 12px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0.7;
+
+    -webkit-transition: all linear 0.25s;
+    transition: all linear 0.25s;
+}
+#side-nav ul li a.nav {
+    position:relative;
+    height: 30px;
+    width:150px;
+    padding: 10px 0px 0px 0px;
+    background: #000;
+    text-decoration: none;
+    font-family: "微軟正黑體";
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+}
+#side-nav ul li a.href1{
+   font-size: 18px;
+
+}
+#side-nav ul li a.href1:hover{
+   font-size: 26px; 
+   text-align: 40px;
+}
+
+#side-nav ul li a:hover {
+    opacity: 1;
+    width:200px;
+    height:40px;
+    font-size: 32px;
+    right:20px;
+}
+
+div{
+    height: 800px;
+}
+#index{
+    background:url(../images/lack.jpg) 50% 0 no-repeat fixed;
+    background-size: 100%;
+    color: white;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+.indexwrap{
+    position: relative;
+}
+h1{
+    height: 98px;
+    width: 424px;
+    background: url(../images/logo.png);
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-indent: -99999px;
+    background-size: 100%
+}
+.intro{
+    color: #000;
+    font-family: "Microsoft JhengHei";
+    position: absolute;
+    top: 32%;
+    left: 9%;
+    width: 600px;
+
+}
+.intro span{
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 20px;
+}
+#announcement{
+    background: url(../images/sec4.png) 50% 0 no-repeat fixed;
+    background-size: 100%;
+    color: white;
+    height: 1000px;
+    
+    
+}
+.title{
+    position: relative;
+    display:block;
+    font-weight:bolder;
+    font-size: 80px;
+    font-family: "Open_Sans_B";
+    font-family: "微軟正黑體";
+    color: #000;
+}
+#visitors{
+    background: url(../images/visbg.png) 10% 50% no-repeat fixed;
+    background-size: 100%;
+    color: #000;
+    height: 1000px;
+    padding: 100px 0 0 0;
+
+    /*position: relative;*/
+}
+#students{
+    background: url(../images/studentbg.png) 30% 0 no-repeat fixed;
+    color: white;
+    height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    z-index: 200;
+    background-size: 100%;
+
+}
+
+#students .bg{
+    background: url(../images/cap.png) 30% 0 no-repeat fixed;
+    *height: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    width: 900px;
+    z-index: 300;
+}
+
+.studentwrap{
+    background: url(../images/student1.png) 30% 0 no-repeat fixed;
+    
+}
+#teachers{
+    background: url(../images/teacher2.png)  0 no-repeat fixed;
+    background-size: 100%;
+    *color: white;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+.footer{
+    background-color: #000;
+    height: 50px;
+    position: relative;
+    color:#fff;
+    top:5px;
+}
+.botton-content{
+    position: absolute;
+    top:10px;
+    left:20%;
+    font-size: 12px;
+    font-family: "Microsoft JhengHei";
+    height: 40px;
+
+}
+.botton-content li{
+    float: left;
+    margin-left: 30px;
+    font-family: "Microsoft JhengHei";
+}
+.botton-content li p{
+    margin-bottom: 10px;
+}
+
+.visitors-left{
+    position: absolute;
+    background: url(../images/vist.gif) 80% 0 no-repeat ;
+    width: 1000px;    
+    top: 5%;
+    left: 3%;
+    
+
+}
+.visitors-left h2{
+    position: absolute;
+    font-size: 80px;
+    font-family: "Microsoft JhengHei";
+    top:-8%;
+    left: 15%;
+
+}
+.visitors-right{
+  position: absolute;
+  top:-50px;
+  left:60%;
+  width: 452px;
+  height: 800px;
+  background:url(../images/phone.png) no-repeat ;
+}
+
+.visitors-right ul{
+     list-style-type: none;
+     margin-top: 200px;
+     margin-left: 20px;
+    
+}
+.visitors-right li{
+    position: relative;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    *background-color:#FFFF00;
+}
+.visitors-right a{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 100px;
+    
+
+    /*background: url(images/graduated.png);*/
+}
+
+.visitors-right h3{
+    color: #000;
+    position: absolute;
+    top:100px;
+    left:18px;
+    color: #000;
+    font-weight:bolder;
+    font-family: "Microsoft JhengHei";
+    
+}
+.visitors-right img{
+    /*
+    color: #000;
+    position: absolute;
+    top:50px;
+    left:-10px;*/
+    margin: 10px 0 0 10px;
+    opacity: 0.7;
+    -webkit-transition: all linear 0.25s;
+    transition: all linear 0.25s;
+}
+
+.visitors-right ul li a:hover img{
+    opacity: 1;
+    height: 100px;
+    width: 100px;
+}
+
+.fb-connect{
+    position: absolute;
+    top: 10.3%;
+    left: 8%;
+    height: 50px;
+}
+.fb-connect a{
+    position: absolute;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    color: #000;
+    -webkit-transition: all linear 0.25s;
+    transition: all linear 0.25s;
+    
+}
+.fb-connect a:hover{
+    color: #FFBB00;
+}
+.fb-connect h4{
+    margin-top: 15px;
+    margin-left: 45px;
+    font-family: "FangSong";
+}
+.fb-connect img{
+    float: left;
+}
+.back-to-top{
+    position: absolute;
+    left:40.2%;
+    top: 82.2%;
+}
+.back-to-top a:hover img{
+    opacity: 1;
+}
+.student-right{
+    background: url(../images/openBook.png)  no-repeat;
+    height: 831px;
+    width: 1024px;
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    z-index: 50;
+}
+.student-right h2{
+    color: #000;
+    font-family: "FangSong";
+    font-weight: bolder;
+    *font-style: italic;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 80px;
+    color: #008844;
+
+
+}
+.student-right ul{
+    margin-left: 10%;
+    margin-top: 14%
+}
+.student-right li{
+    margin-bottom: 30px;
+}
+.student-right a{
+    color:#000;
+    font-family: FangSong;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: italic;
+    height: 30px;
+    width: 500px;
+    -webkit-transition: all linear 0.25s;
+    transition: all linear 0.25s;
+}
+.student-right a:hover{
+    color: #0066FF;
+    font-size: 35px;
+}

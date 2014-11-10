@@ -1,0 +1,29 @@
+.teacherwrap{
+	position:relative;
+	width:1300px;
+	margin:0px auto 0px auto;
+	font-family: "Open_Sans_B";
+	font-family: "微軟正黑體";
+	padding-top: 50px;
+
+}
+
+.teacheritem{
+	position:absolute;
+	border-radius: 120px;
+	opacity:0.8;
+	text-align: center;
+	-webkit-transition: all linear 0.25s;
+	transition: all linear 0.25s;
+	cursor: pointer;
+}
+
+.teacheritem:hover{
+	opacity:1;
+	font-size: 24px;
+}
+
+.teacheritem h2{
+	position:relative;
+	top:45%;
+}
