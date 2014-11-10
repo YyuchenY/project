@@ -125,6 +125,8 @@ body{
 }
 .logo{
     position: relative;
+    top: 12%;
+
 }
 h1{
     height: 98px;
